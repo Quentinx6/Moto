@@ -1,0 +1,58 @@
+/* *****************************************************************
+Body
+***************************************************************** */
+body{
+    background-color: rgb(10, 7, 7);
+    width: 1400px 0;
+    margin: auto;
+    color: white;
+}
+
+/* *****************************************************************
+Header
+***************************************************************** */
+header{
+    background-image: url('images/logo.jpg');
+    margin: auto;
+    width: 1400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(17, 3, 3);
+
+}
+.font{
+    margin: 10px 100px 50px 100px; 
+    height: 300px;
+}
+nav{
+    margin-left: 500px;
+    padding-top: 1px;
+}
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+
+    
+}
+nav ul li{
+    width: 200px;
+    margin: 10px auto;
+    padding: 50px;
+    display: inline-block;
+    background-color: beige;
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: white;
+    transition: 0.3s;
+}
+nav ul li a {
+
+    text-decoration: none;
+    color:black;
+    padding: 50px;
+}
